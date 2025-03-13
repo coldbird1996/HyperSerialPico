@@ -18,7 +18,7 @@ if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	# Use multi-segment, starting index of second led strip or OFF to disable
 	set(SECOND_SEGMENT_INDEX 150)
 
-	# If multi-segment is used and it's reversed, set this option to ON to enable reversing
+	# If multi-segment is used and it's reversed, set this option to ON to enable reversing5
 	set(SECOND_SEGMENT_REVERSED ON)
 
 	# User configuration section ends here
