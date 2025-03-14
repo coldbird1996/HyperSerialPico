@@ -4,10 +4,10 @@ if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	# Some boards, such as the first Adafruit revisions, may have trouble booting properly
 	# due to bad componets used in the design.
 	# Turn this setting to ON if your rp2040 is not detected after firmware upload and reset
-	set(BOOT_WORKAROUND ON)
+	set(BOOT_WORKAROUND OFF)
 
 	# Default output data pin for the non-SPI LED strips (only for sk6812/ws2812b)
-	set(OUTPUT_DATA_PIN 0)
+	set(OUTPUT_DATA_PIN 2)
 
 	# Default output data/clocks pin for the SPI LED strips (only for apa102, not for sk6812/ws2812b)
 	# only certain pairs of pins are allowed for selected SPI interface (refer to "readme.md")
@@ -19,7 +19,7 @@ if (NOT PICO_PROGRAM_MAIN_ENTRY)
 	set(SECOND_SEGMENT_INDEX 150)
 
 	# If multi-segment is used and it's reversed, set this option to ON to enable reversing5
-	set(SECOND_SEGMENT_REVERSED ON)
+	set(SECOND_SEGMENT_REVERSED OFF)
 
 	# User configuration section ends here
 	# Usually you don't need to change anything below this section
